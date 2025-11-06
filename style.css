@@ -40,7 +40,7 @@ input[type="submit"]
 
 input[type="submit"]:hover 
 {
-  background-color: gray;
+  background-color: light pink;
 }
 
 /* Center headings */
@@ -52,3 +52,4 @@ h1, h2
 {
 	color:red;
 }
+
