@@ -1,0 +1,54 @@
+/* Center the page */
+body 
+{
+  background-color: pink; /* Set background color */
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  height: 100vh; /* Full viewport height */
+  margin: 0;
+}
+
+/* Style form container */
+.container 
+{
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 350px;
+}
+
+/* Style input fields */
+input 
+{
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Style buttons */
+input[type="submit"] 
+{
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover 
+{
+  background-color: gray;
+}
+
+/* Center headings */
+h1, h2 
+{
+  text-align: center;
+}
+.error
+{
+	color:red;
+}
